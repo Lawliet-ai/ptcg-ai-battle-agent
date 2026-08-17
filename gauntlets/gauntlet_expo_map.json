@@ -1,0 +1,49 @@
+{
+  "_comment": "gauntlet池slug → 天梯曝光archetype(story/ladder_exposure.json的expo键)的家族级映射。arena_eval.py用它算[曝光覆盖]行。slug按子串双向匹配。",
+  "families": {
+    "lucario": {
+      "slugs": ["lucario_notebook", "lucario_solrock", "mega_lucario_ex_solrock", "riolu_mega_lucario"],
+      "archetypes": ["Mega Lucario ex + Solrock", "Riolu + Mega Lucario ex"]
+    },
+    "kadabra": {
+      "slugs": ["kadabra_real", "kadabra2_real", "kadabra_abra", "kadabra_dunsparce", "fresh_kadabra_dunsparce", "fresh_alakazam"],
+      "archetypes": ["Kadabra + Alakazam", "Kadabra + Dunsparce", "Kadabra + Dudunsparce", "Kadabra + Abra", "Dunsparce + Dudunsparce"]
+    },
+    "dwebble": {
+      "slugs": ["dwebble_crustle", "great_tusk_dwebble"],
+      "archetypes": ["Dwebble + Crustle", "Dwebble + Munkidori", "Munkidori + Dwebble"]
+    },
+    "snover": {
+      "slugs": ["snover_mega_abomasnow_ex"],
+      "archetypes": ["Snover + Mega Abomasnow ex"]
+    },
+    "kangaskhan": {
+      "slugs": ["mega_kangaskhan_ex_dwebble"],
+      "archetypes": ["Mega Kangaskhan ex + Dwebble"]
+    },
+    "dreepy": {
+      "slugs": ["dreepy_drakloak"],
+      "archetypes": ["Dreepy + Drakloak"]
+    },
+    "munkidori": {
+      "slugs": ["fresh_munkidori"],
+      "archetypes": ["Munkidori + Marnie's Impidimp"]
+    },
+    "duraludon": {
+      "slugs": ["duraludon_cinderace", "duraludon_archaludon_ex"],
+      "archetypes": ["Duraludon + Cinderace"]
+    },
+    "cinderace_staryu": {
+      "slugs": ["cinderace_staryu"],
+      "archetypes": ["Cinderace + Staryu", "Staryu + Cinderace", "Staryu + Scorbunny"]
+    },
+    "cynthia": {
+      "slugs": ["cynthia_s_gible_cynthia_s_gabite"],
+      "archetypes": ["Cynthia's Gible + Cynthia's Garchomp ex", "Cynthia's Roserade + Cynthia's Roselia"]
+    },
+    "staryu_mirror": {
+      "slugs": ["staryu_v2", "staryu_v4"],
+      "archetypes": ["Staryu + Mega Starmie ex"]
+    }
+  }
+}
