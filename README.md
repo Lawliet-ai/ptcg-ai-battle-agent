@@ -3,9 +3,9 @@
 Source for our agent in the [Pokémon TCG AI Battle Challenge](https://www.kaggle.com/competitions/pokemon-tcg-ai-battle)
 (The Pokémon Company × Kaggle × Matsuo Institute × HEROZ, June–August 2026).
 
-Final Simulation result: **174–182 across 356 ladder episodes (48.9%)** — statistically indistinguishable
-from even, around the 43rd percentile of 6,809 teams. We report win counts rather than rating because a
-single day's rating on this ladder swings 43 points, which in this part of the field is 600 places. This repository is published as the code companion to our
+Final Simulation result: **628–633 across 1,261 ladder episodes (49.8%)** — statistically indistinguishable
+from even. We report win counts rather than rating because a single day's rating on this ladder swings
+43 points, which in this part of the field is 600 places. This repository is published as the code companion to our
 Strategy writeup, whose central claim is that **this environment structurally penalises search** —
 a conclusion we reached by building a search agent for a month and then falsifying it in three days.
 
